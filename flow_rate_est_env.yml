@@ -1,0 +1,14 @@
+name: flow_rate_est
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - pandas
+  - chardet
+  - pathlib
+  - pip
+  - pip:
+    - chardet

@@ -7,7 +7,7 @@ Author: Knut Ola Dølven
 from pathlib import Path
 
 # Base directory of the project
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = PROJECT_ROOT / 'data'
+PROJECT_ROOT = Path(__file__).resolve().parent
+DATA_DIR =  PROJECT_ROOT / 'BUBBLE_CHARACTERISTICS'
 
 

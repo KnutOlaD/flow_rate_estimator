@@ -76,7 +76,7 @@ if __name__ == "__main__":
     #GET VARIABLES
 
     # --- BUBBLE SIZE DISTRIBUTION PROBABILITY DENSITY FUNCTION --- #
-    bsd_data_file_loc = DATA_DIR / 'bubble_characteristics' / 'BSD_example.txt'
+    bsd_data_file_loc = DATA_DIR / 'BSD_example.txt'
     with open(bsd_data_file_loc, 'rb') as f:
         result = chardet.detect(f.read())
     BSD = pd.read_csv(bsd_data_file_loc, delimiter='\t', encoding=result['encoding'], header=None).values
